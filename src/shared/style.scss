@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+  background-color: #c12f93;
+  color: #fefefe;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.vs-button .vs-button-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgba(254, 254, 254, 0.9);
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(254, 254, 254, 0.9);
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(254, 254, 254, 0.9);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(254, 254, 254, 0.9);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(254, 254, 254, 0.9);
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgba(254, 254, 254, 0.9);
+}
+
+input {
+  background: #cf4fa5 !important;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: 600;
+  border: 2px solid #fefefe;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.input-select {
+  color: #fefefe;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.25s;
+}
+
+.fade-enter-active {
+  transition-delay: 0.25s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.vs-notifications {
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+}
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 600px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: 0.5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: 0.5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ': ';
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 300px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+}
+@media (min-width: 300px) {
+  .rwd-table th,
+  .rwd-table td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .rwd-table th:first-child,
+  .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child,
+  .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.rwd-table {
+  background: #8a045e;
+  color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #c12f93;
+}
+.rwd-table th,
+.rwd-table td {
+  margin: 0.5em 1em;
+}
+@media (min-width: 300px) {
+  .rwd-table th,
+  .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th,
+.rwd-table td:before {
+  color: #e07bbf;
+}
