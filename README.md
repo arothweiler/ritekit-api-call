@@ -1,6 +1,6 @@
 # Ritekit Auto Hashtag
 
-> Simple Page Application for creating auto hashtags with RiteKit API
+> Simple Page Application for creating auto hashtags with RiteKit API. Was created with a help of a friend.
 
 ## Project Setup
 
